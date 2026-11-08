@@ -2,6 +2,7 @@ _site
 .bundle
 .DS_store
 .idea
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
 .ruby-version
@@ -15,6 +16,8 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+Gemfile.lock
+vlouki.site.tar.gz
 
 # Python bytecode from bin/ helper scripts
 __pycache__/
