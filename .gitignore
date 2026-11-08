@@ -17,6 +17,7 @@ output/playwright/
 test-results/
 vendor
 Gemfile.lock
+package-lock.json
 vlouki.site.tar.gz
 
 # Python bytecode from bin/ helper scripts

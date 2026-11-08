@@ -208,16 +208,16 @@
   maintainer_contact: https://github.com/al-org-dev
   notes: Comments providers and comment runtime glue.
 
-# - name: al_newsletter
-#   repo_url: https://github.com/al-org-dev/al-newsletter
-#   gem_name: al_newsletter
-#   jekyll_plugin_id: al_newsletter
-#   owner: al-org-dev
-#   license: See plugin repo LICENSE
-#   compat:
-#     al_folio_min: "1.0.0"
-#     al_folio_max: "1.x"
-#   status: bundled
-#   demo_path: /
-#   maintainer_contact: https://github.com/al-org-dev
-#   notes: Newsletter runtime integration.
+- name: al_newsletter
+  repo_url: https://github.com/al-org-dev/al-newsletter
+  gem_name: al_newsletter
+  jekyll_plugin_id: al_newsletter
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Newsletter runtime integration.

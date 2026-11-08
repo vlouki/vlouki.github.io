@@ -14,6 +14,7 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+
 # announcements:
 #   enabled: false # includes a list of news items
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -43,7 +44,6 @@ Through academic projects, I have been able to apply my knowledge, collaborate w
 
 As I begin my professional journey, I am motivated to keep learning, set new goals and take on new challenges.
 
-
 ## The Person Behind the Code
 
 Outside of technology, sports have always been a big part of my life. I'm an amateur football player and enjoy running, staying active and challenging myself physically.
@@ -52,10 +52,7 @@ I also love traveling, exploring new places and experiencing different cultures.
 
 On the creative side, I recently started rug tufting, designing and creating handmade rugs from scratch. It's a hobby that allows me to express my creativity and work on something completely different from the digital world.
 
-
-
-
-<!-- 
+<!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
