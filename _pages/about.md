@@ -26,7 +26,7 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, I'm Vyronas Loukidelis, a graduate of the [Department of Informatics and Telematics](https://www.dit.hua.gr/index.php/en/) at Harokopio University of Athens, eager to take my first steps in the IT industry.
+Hello, I'm Vyronas Loukidelis, a graduate of the [Department of Informatics and Telematics](https://dit.hua.gr/index.php/en) at Harokopio University of Athens, eager to take my first steps in the IT industry.
 
 Throughout my studies, I have had the opportunity to explore and get involved in various areas of computer science, building a solid foundation in:
 

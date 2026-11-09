@@ -4,13 +4,13 @@
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: b.loukidelis@gmail.com # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: 306945668184 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 discord_id: 734779314544836658 # your discord id (18-digit unique numerical identifier)
 facebook_id: 100085265388838 # your facebook id
-instagram_id: 8473541532 # your instagram id
+instagram_id: byron_louki # your instagram id
 linkedin_username: vyronas-loukidelis-172380449 # your LinkedIn user name
 github_username: vlouki # your GitHub user name
 spotify_id: 1gyBRbQACz4JJX2HRROigK # your spotify id
