@@ -1,48 +1,21 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: b.loukidelis@gmail.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
+# inspirehep_id: 1010907 # Inspire HEP author ID
 rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
-
-# github_username: gfragi # your GitHub user name
-# gitlab_username: gfragi # your GitLab user name
-# twitter_username:  # your Twitter handle
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# linkedin_username: gfragi # your LinkedIn user name
-# telegram_username: # your Telegram user name
-# scholar_userid: 8jw-zScAAAAJ # your Google Scholar ID
-# semanticscholar_id: # your Semantic Scholar ID
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-# orcid_id: 0000-0002-3418-6443 # your ORCID ID
-# medium_username: # your Medium username
-# quora_username: # your Quora username
-# publons_id: # your ID on Publons
-# lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-# osf_id: # your OSF ID
-# research_gate_profile: George-Fragiadakis-2 # your profile on ResearchGate
-# scopus_id: 57369758800 # your profile on Scopus
-# blogger_url: # your blogger URL
-# work_url: # work page URL
-# keybase_username: # your keybase user name
-# wikidata_id: # your wikidata id
-# wikipedia_id: # your wikipedia id (Case sensitive)
-# dblp_url: # your DBLP profile url
-# stackoverflow_id: # your stackoverflow id
-# kaggle_id: # your kaggle id
-# lastfm_id: # your lastfm id
-# spotify_id: gfragi # your spotify id
-# pinterest_id: # your pinterest id
-# unsplash_id: # your unsplash id
-# instagram_id: # your instagram id
-# facebook_id: # your facebook id
-# youtube_id: gfragi # your youtube channel id (youtube.com/@<youtube_id>)
-# discord_id: # your discord id (18-digit unique numerical identifier)
+whatsapp_number: 306945668184 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+discord_id: 734779314544836658 # your discord id (18-digit unique numerical identifier)
+facebook_id: 100085265388838 # your facebook id
+instagram_id: 8473541532 # your instagram id
+linkedin_username: vyronas-loukidelis-172380449 # your LinkedIn user name
+github_username: vlouki # your GitHub user name
+spotify_id: 1gyBRbQACz4JJX2HRROigK # your spotify id
+# youtube_id:  # your youtube channel id (youtube.com/@<youtube_id>)
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/
