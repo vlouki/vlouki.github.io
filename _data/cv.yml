@@ -1,189 +1,255 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Vyronas Loukidelis
+  label: "BSc in Informatics and Telematics"
+  email: b.loukidelis@gmail.com
+  location: Athens, Greece
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  date_of_birth: "14th of August 2004"
+  summary: >-
+    I am a recent graduate in Informatics and Telematics from
+    Harokopio University of Athens, with a solid academic
+    foundation in software development, web technologies,
+    cloud computing, DevOps practices, and cybersecurity.
+    Currently seeking my first professional opportunity
+    in the IT industry, where I can apply my academic
+    knowledge, gain hands-on experience and continuously
+    develop my skills.
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  # social_networks:
+  #   - network: GitHub
+  #     username: vlouki
+  #   - network: LinkedIn
+  #     username: vlouki
+  #   - network: Instagram
+  #     username: byron_louki
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Nea Filadelfeia
+    city: Athens
+    region: Attiki
+    postalCode: 14342
+    countryCode: GR
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Harokopio University of Athens
+        location: Athens, Greece
+        url: https://www.hua.gr/
+        area: Informatics and Telematics
+        studyType: BSc
+        start_date: 2022
+        end_date: 2026
+        score: "8.43/10"
+        courses: >-
+          "Programming in C, Programming in C++, Object-Oriented Programming in Java, Data Structures,
+          Databases, Operating Systems, Web Application Technologies, Mobile Application Development, 
+          Distributed Systems, Information Systems, Decision Making Systems, DevOps Core Concepts and Tools, 
+          Artificial Intelligence, Quantum Computers and Algorithms, Cloud Computing Management, Cryptography, Cybersecurity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: [An Information System for Managing University Committees in Python/Django](https://estia.hua.gr/entities/publication/3c51458d-87f1-401c-bc62-bce2bb67217e)."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    # Experience:
+    #   - company: Tavern Mister Loukidelis
+    #     position: Waiter
+    #     location: Geor. Papandreou 81, 14341, Nea Filadelfeia, Athens, Greece
+    #     start_date: 2021
+    #     end_date: 2026
+    #     summary: Worked alongside university studies to support myself financially.
+    #     highlights:
+    #       - Description 1.
+    #       - Description 2.
+
+    Projects:
+      - title: Cloud Infrastructure Management with OpenStack & DevStack
+        summary: Cloud Computing
         highlights:
-          - Description 1.
-          - Description 2.
+          - >-
+              Deployed OpenStack using DevStack on a Google
+              Cloud virtual machine, creating a cloud
+              environment within an existing IaaS infrastructure.
+          - >-
+              Configured tenants, networks, security policies,
+              and virtual machine provisioning to simulate
+              cloud provider operations.
+        start_date: 2026-04-01
+        end_date: 2026-06-01
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - title: LoukIt! – Android Daily Task Management Application
+        summary: Android Development
         highlights:
-          - Relativity
-          - Description 2.
+          - >-
+              Developed an Android application in Java for
+              creating, organizing, tracking, and completing
+              daily tasks.
+          - >-
+              Implemented local data persistence with Room
+              (SQLite), background processing with WorkManager,
+              task management through a Content Provider,
+              and location-based functionality using Google Maps.
+        start_date: 2025-10-01
+        end_date: 2026-01-06
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - title: Pet Adoption Web-App | DevOps & CI/CD Automation
+        summary: DevOps Core Concepts and Tools
         highlights:
-          - Description 1.
-          - Description 2.
+          - >-
+              Developed a role-based pet adoption web
+              application using Java, Spring Boot,
+              Spring Security, Thymeleaf, and MariaDB.
+          - >-
+              Automated deployment across Azure virtual machines
+              using Ansible, Docker, and Docker Compose,
+              with Jenkins CI/CD pipelines for testing,
+              image builds, and deployment.
+          - >-
+              Integrated MinIO for object storage, MailHog
+              for email testing, and Nginx as a reverse proxy.
+        start_date: 2025-04-22
+        end_date: 2025-07-02
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - title: Post-Quantum Cryptography in TLS | Merkle Tree Certificates & Certificate Transparency
+        summary: TLS and Web PKI Research
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - >-
+              Researched the impact of post-quantum
+              cryptography on TLS certificates and
+              handshake overhead.
+          - >-
+              Examined Merkle Tree Certificates (MTCs)
+              and their relationship with Certificate
+              Transparency to improve the efficiency
+              and scalability of Web PKI.
+        start_date: 2026-05-06
+        end_date: 2026-05-20
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Operating Systems
+        level: # Master
+        icon: fa-solid fa-linux
+        keywords: "Windows 10, Linux (Ubuntu)"
+      
+      - name: DevOps
+        icon: fa-solid fa-laptop
+        keywords: "Ansible, Docker, Jenkins, Kubernetes, Vagrant"
+
+      - name: Back-end
+        icon: fa-solid fa-backward
+        keywords: "Spring Boot, Django, REST APIs"
+
+      - name: Front-end
+        icon: fa-solid fa-forward
+        keywords: "HTML, CSS, JavaScript, Bootstrap 5"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, Java, C/C++, Bash"
+
+      - name: Databases
+        icon: fa-solid fa-database
+        keywords: "PostgreSQL, MariaDB, MySQL, SQLite"
+
+      - name: Version Control
+        icon: fa-solid fa-code
+        keywords: "Experienced using Git – ensuring efficient collaboration and tracking changes in codebases."
+
+      - name: Cloud Computing
+        icon: fa-solid fa-cloud
+        keywords: "Possess knowledge about cloud computing and virtualization, with practical experience in OpenStack and IaaS management."
+
+      - name: Cybersecurity
+        icon: fa-solid fa-shield
+        keywords: "Foundational knowledge of web application security and vulnerability assessment."
+
+      - name: Android Development
+        icon: fa-solid fa-android
+        keywords: "Capable of developing simple Android apps using Java."
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Greek
+        summary: "Native"
 
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+  # sections:
+  #   Volunteer:
+  #     - company: People's Climate March
+  #       position: Lead Organizer
+  #       location: Zurich, Switzerland
+  #       start_date: 2014-04-01
+  #       end_date: 2015-07-01
+  #       summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+  #       highlights:
+  #         - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+  #         - "Men of the year 2014 by Time magazine"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+  #   Awards:
+  #     - title: Nobel Prize in Physics
+  #       authors:
+  #         - "Royal Swedish Academy of Sciences"
+  #       date: 1921-11-01
+  #       awarder: Royal Swedish Academy of Sciences
+  #       url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+  #       summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+  #     - title: Max Planck Medal
+  #       authors:
+  #         - "German Physical Society"
+  #       date: 2029
+  #       awarder: German Physical Society
+  #       summary: Awarded for outstanding scientific achievement
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+  #   Publications:
+  #     - title: Zur Elektrodynamik bewegter Körper
+  #       authors:
+  #         - Albert Einstein
+  #       publisher: Annalen der Physik
+  #       releaseDate: 1905-06-30
+  #       url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+  #       summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+  #     - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+  #       authors:
+  #         - Albert Einstein
+  #       publisher: Annalen der Physik
+  #       releaseDate: 1905-03-18
+  #       url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+  #       summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+  #     - title: Die Grundlage der allgemeinen Relativitätstheorie
+  #       authors:
+  #         - Albert Einstein
+  #       publisher: Annalen der Physik
+  #       releaseDate: 1916-03-20
+  #       url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+  #       summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+  #   Interests:
+  #     - name: Physics
+  #       icon: fa-solid fa-tag
+  #       keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+  #   Certificates:
+  #     - name: Machine Learning
+  #       date: 2018-01-01
+  #       issuer: Stanford University
+  #       icon: fa-solid fa-location-dot
+
+  #     - name: Quantum Computing
+  #       date: 2018-01-01
+  #       issuer: Stanford University
+  #       icon: fa-solid fa-tag
+
+  #     - name: Quantum Information
+  #       date: 2018-01-01
+  #       issuer: Stanford University
+  #       icon: fa-solid fa-envelope
+
+  #   References:
+  #     - name: Professor John Doe
+  #       icon: fa-solid fa-laptop
+  #       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+  #     - name: Professor Jane Smith
+  #       icon: fa-solid fa-thumbtack
+  #       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
