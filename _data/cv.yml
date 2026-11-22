@@ -64,13 +64,13 @@ cv:
         summary: Cloud Computing
         highlights:
           - >-
-              Deployed OpenStack using DevStack on a Google
-              Cloud virtual machine, creating a cloud
-              environment within an existing IaaS infrastructure.
+            Deployed OpenStack using DevStack on a Google
+            Cloud virtual machine, creating a cloud
+            environment within an existing IaaS infrastructure.
           - >-
-              Configured tenants, networks, security policies,
-              and virtual machine provisioning to simulate
-              cloud provider operations.
+            Configured tenants, networks, security policies,
+            and virtual machine provisioning to simulate
+            cloud provider operations.
         start_date: 2026-04-01
         end_date: 2026-06-01
 
@@ -78,14 +78,14 @@ cv:
         summary: Android Development
         highlights:
           - >-
-              Developed an Android application in Java for
-              creating, organizing, tracking, and completing
-              daily tasks.
+            Developed an Android application in Java for
+            creating, organizing, tracking, and completing
+            daily tasks.
           - >-
-              Implemented local data persistence with Room
-              (SQLite), background processing with WorkManager,
-              task management through a Content Provider,
-              and location-based functionality using Google Maps.
+            Implemented local data persistence with Room
+            (SQLite), background processing with WorkManager,
+            task management through a Content Provider,
+            and location-based functionality using Google Maps.
         start_date: 2025-10-01
         end_date: 2026-01-06
 
@@ -93,17 +93,17 @@ cv:
         summary: DevOps Core Concepts and Tools
         highlights:
           - >-
-              Developed a role-based pet adoption web
-              application using Java, Spring Boot,
-              Spring Security, Thymeleaf, and MariaDB.
+            Developed a role-based pet adoption web
+            application using Java, Spring Boot,
+            Spring Security, Thymeleaf, and MariaDB.
           - >-
-              Automated deployment across Azure virtual machines
-              using Ansible, Docker, and Docker Compose,
-              with Jenkins CI/CD pipelines for testing,
-              image builds, and deployment.
+            Automated deployment across Azure virtual machines
+            using Ansible, Docker, and Docker Compose,
+            with Jenkins CI/CD pipelines for testing,
+            image builds, and deployment.
           - >-
-              Integrated MinIO for object storage, MailHog
-              for email testing, and Nginx as a reverse proxy.
+            Integrated MinIO for object storage, MailHog
+            for email testing, and Nginx as a reverse proxy.
         start_date: 2025-04-22
         end_date: 2025-07-02
 
@@ -111,14 +111,14 @@ cv:
         summary: TLS and Web PKI Research
         highlights:
           - >-
-              Researched the impact of post-quantum
-              cryptography on TLS certificates and
-              handshake overhead.
+            Researched the impact of post-quantum
+            cryptography on TLS certificates and
+            handshake overhead.
           - >-
-              Examined Merkle Tree Certificates (MTCs)
-              and their relationship with Certificate
-              Transparency to improve the efficiency
-              and scalability of Web PKI.
+            Examined Merkle Tree Certificates (MTCs)
+            and their relationship with Certificate
+            Transparency to improve the efficiency
+            and scalability of Web PKI.
         start_date: 2026-05-06
         end_date: 2026-05-20
 
@@ -127,7 +127,7 @@ cv:
         level: # Master
         icon: fa-solid fa-linux
         keywords: "Windows 10, Linux (Ubuntu)"
-      
+
       - name: DevOps
         icon: fa-solid fa-laptop
         keywords: "Ansible, Docker, Jenkins, Kubernetes, Vagrant"
