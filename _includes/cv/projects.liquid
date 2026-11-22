@@ -1,0 +1,128 @@
+{% comment %}
+  Custom Projects Template for al-folio
+
+  Features:
+  - Full dates: Month Day, Year
+  - Full-width project titles
+  - Project type beneath each title
+  - Bullet-point descriptions
+  - Optional clickable project links
+  - Supports both "name" and "title" fields
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% comment %} Project title {% endcomment %}
+    {% assign project_title = entry.name | default: entry.title %}
+
+    {% comment %} Read project dates {% endcomment %}
+    {% assign start_date = entry.start_date | default: entry.startDate | default: '' | append: '' | strip %}
+    {% assign end_date = entry.end_date | default: entry.endDate | default: '' | append: '' | strip %}
+    {% assign point_date = entry.date | default: entry.releaseDate | default: '' | append: '' | strip %}
+
+    {% assign display_date = '' %}
+
+    {% comment %} Format start and end dates {% endcomment %}
+    {% if start_date != '' %}
+      {% assign start_parts = start_date | split: '-' %}
+
+      {% if start_parts.size == 3 %}
+        {% assign formatted_start = start_date | date: '%B %-d, %Y' %}
+      {% elsif start_parts.size == 2 %}
+        {% assign formatted_start = start_date | date: '%B %Y' %}
+      {% else %}
+        {% assign formatted_start = start_date %}
+      {% endif %}
+
+      {% if end_date != '' %}
+        {% assign end_parts = end_date | split: '-' %}
+
+        {% if end_parts.size == 3 %}
+          {% assign formatted_end = end_date | date: '%B %-d, %Y' %}
+        {% elsif end_parts.size == 2 %}
+          {% assign formatted_end = end_date | date: '%B %Y' %}
+        {% else %}
+          {% assign formatted_end = end_date %}
+        {% endif %}
+      {% else %}
+        {% assign formatted_end = 'Present' %}
+      {% endif %}
+
+      {% assign display_date = formatted_start | append: ' – ' | append: formatted_end %}
+
+    {% elsif point_date != '' %}
+      {% assign point_parts = point_date | split: '-' %}
+
+      {% if point_parts.size == 3 %}
+        {% assign display_date = point_date | date: '%B %-d, %Y' %}
+      {% elsif point_parts.size == 2 %}
+        {% assign display_date = point_date | date: '%B %Y' %}
+      {% else %}
+        {% assign display_date = point_date %}
+      {% endif %}
+    {% endif %}
+
+    {% comment %} Render one project {% endcomment %}
+    <li
+      class="list-group-item"
+      style="display: block; width: 100%; min-width: 0;"
+    >
+      {% comment %} Date: separate row {% endcomment %}
+      {% if display_date != '' %}
+        <div style="display: block; width: 100%; margin-bottom: 0.65rem;">
+          <span
+            class="badge font-weight-bold danger-color-dark"
+            style="
+              display: inline-block; max-width: 100%;
+              white-space: normal; line-height: 1.5;
+            "
+          >
+            {{ display_date }}
+          </span>
+        </div>
+      {% endif %}
+
+      {% comment %} Project title: full width {% endcomment %}
+      <h6
+        class="title font-weight-bold"
+        style="
+          display: block; width: 100%;
+          margin: 0 0 0.4rem;
+          overflow-wrap: anywhere;
+        "
+      >
+        {% if entry.url %}
+          <a
+            href="{{ entry.url | escape }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ project_title | escape }}
+          </a>
+        {% else %}
+          {{ project_title | escape }}
+        {% endif %}
+      </h6>
+
+      {% comment %} Project type {% endcomment %}
+      {% if entry.summary %}
+        <p style="margin-bottom: 0.5rem;">
+          {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+        </p>
+      {% endif %}
+
+      {% comment %} Project bullet points {% endcomment %}
+      {% if entry.highlights %}
+        <ul class="items">
+          {% for item in entry.highlights %}
+            <li>
+              <span class="item">
+                {{ item | markdownify | remove: '<p>' | remove: '</p>' }}
+              </span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

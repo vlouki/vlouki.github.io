@@ -71,9 +71,8 @@ cv:
             Configured tenants, networks, security policies,
             and virtual machine provisioning to simulate
             cloud provider operations.
-        date: "April 1, 2026 – June 1, 2026"
-        # start_date: 2026-04-01
-        # end_date: 2026-06-01
+        start_date: 2026-04-01
+        end_date: 2026-06-01
 
       - name: LoukIt! – Android Daily Task Management Application
         summary: Android Development
@@ -87,9 +86,8 @@ cv:
             (SQLite), background processing with WorkManager,
             task management through a Content Provider,
             and location-based functionality using Google Maps.
-        date: "Oct 1, 2025 – Jan 6, 2026"
-        # start_date: 2025-10-01
-        # end_date: 2026-01-06
+        start_date: 2025-10-01
+        end_date: 2026-01-06
 
       - name: Pet Adoption Web-App | DevOps & CI/CD Automation
         summary: DevOps Core Concepts and Tools
@@ -106,9 +104,8 @@ cv:
           - >-
             Integrated MinIO for object storage, MailHog
             for email testing, and Nginx as a reverse proxy.
-        date: "Apr 22, 2025 – Jul 2, 2025"
-        # start_date: 2025-04-22
-        # end_date: 2025-07-02
+        start_date: 2025-04-22
+        end_date: 2025-07-02
 
       - name: Post-Quantum Cryptography in TLS | Merkle Tree Certificates & Certificate Transparency
         summary: TLS and Web PKI Research
@@ -122,9 +119,8 @@ cv:
             and their relationship with Certificate
             Transparency to improve the efficiency
             and scalability of Web PKI.
-        date: "May 6, 2026 – May 20, 2026"
-        # start_date: 2026-05-06
-        # end_date: 2026-05-20
+        start_date: 2026-05-06
+        end_date: 2026-05-20
 
     Skills:
       - name: Operating Systems
