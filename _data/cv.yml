@@ -40,13 +40,14 @@ cv:
         start_date: 2022
         end_date: 2026
         score: "8.43/10"
-        courses: >-
-          "Programming in C, Programming in C++, Object-Oriented Programming in Java, Data Structures,
-          Databases, Operating Systems, Web Application Technologies, Mobile Application Development, 
-          Distributed Systems, Information Systems, Decision Making Systems, DevOps Core Concepts and Tools, 
-          Artificial Intelligence, Quantum Computers and Algorithms, Cloud Computing Management, Cryptography, Cybersecurity"
+        # courses: >-
+        #   Programming in C, Programming in C++, Object-Oriented Programming in Java, Data Structures,
+        #   Databases, Operating Systems, Web Application Technologies, Mobile Application Development, 
+        #   Distributed Systems, Information Systems, Decision Making Systems, DevOps Core Concepts and Tools, 
+        #   Artificial Intelligence, Quantum Computers and Algorithms, Cloud Computing Management, Cryptography, Cybersecurity
         highlights:
           - "Thesis: [An Information System for Managing University Committees in Python/Django](https://estia.hua.gr/entities/publication/3c51458d-87f1-401c-bc62-bce2bb67217e)."
+          - "Achieved a Cumulative GPA of 8.43 out of 10.00."
 
     # Experience:
     #   - company: Tavern Mister Loukidelis
