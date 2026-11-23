@@ -42,8 +42,8 @@ cv:
         score: "8.43/10"
         # courses: >-
         #   Programming in C, Programming in C++, Object-Oriented Programming in Java, Data Structures,
-        #   Databases, Operating Systems, Web Application Technologies, Mobile Application Development, 
-        #   Distributed Systems, Information Systems, Decision Making Systems, DevOps Core Concepts and Tools, 
+        #   Databases, Operating Systems, Web Application Technologies, Mobile Application Development,
+        #   Distributed Systems, Information Systems, Decision Making Systems, DevOps Core Concepts and Tools,
         #   Artificial Intelligence, Quantum Computers and Algorithms, Cloud Computing Management, Cryptography, Cybersecurity
         highlights:
           - "Thesis: [An Information System for Managing University Committees in Python/Django](https://estia.hua.gr/entities/publication/3c51458d-87f1-401c-bc62-bce2bb67217e)."
@@ -126,7 +126,7 @@ cv:
     Skills:
       - name: Operating Systems
         level: # Master
-        icon: fa-solid fa-linux
+        icon: fa-brands fa-linux
         keywords: "Windows 10, Linux (Ubuntu)"
 
       - name: DevOps
@@ -162,7 +162,7 @@ cv:
         keywords: "Foundational knowledge of web application security and vulnerability assessment."
 
       - name: Android Development
-        icon: fa-solid fa-android
+        icon: fa-brands fa-android
         keywords: "Capable of developing simple Android apps using Java."
 
     Languages:
