@@ -65,13 +65,13 @@ LoukIt! is an Android application developed in Java for organizing and managing 
 
 Watch LoukIt! running in the Android Studio emulator.
 
-<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
   <iframe
-    src="https://www.youtube.com/watch?v=u5axN2hvB-Y"
+    src="https://www.youtube.com/embed/u5axN2hvB-Y"
     title="LoukIt! Android Application Demonstration"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    loading="lazy"
+    style="width: 100%; height: 100%; border: 0; border-radius: 10px;"
     referrerpolicy="strict-origin-when-cross-origin"
+    loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
