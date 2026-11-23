@@ -43,16 +43,16 @@ A research investigating the implications of post-quantum cryptography for TLS c
     Certificate Transparency
 </div>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ct.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-4 mt-md-0">
+    <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/pqc_ciphers.png" title="PQC Cipher Candidates" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/merkle_trees.png" title="Merkle Trees" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
