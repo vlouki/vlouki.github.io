@@ -25,7 +25,9 @@ A research investigating the implications of post-quantum cryptography for TLS c
     </div>
 </div>
 <div class="caption">
-    [TLS handshake](https://assets.bytebytego.com/diagrams/0220-how-does-https-work.png)
+    <a href="https://assets.bytebytego.com/diagrams/0220-how-does-https-work.png" target="_blank" rel="noopener noreferrer">
+    TLS Handshake
+  </a>
 </div>
 
 ## Topics Covered
@@ -37,19 +39,19 @@ A research investigating the implications of post-quantum cryptography for TLS c
 - Merkle Trees
 - Certificate Transparency
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/merkle_trees.png" title="Merkle Trees" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ct.png" title="Certificate Transparency" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ct.png" title="Certificate Transparency" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/merkle_trees.png" title="Merkle Trees" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/pqc_ciphers.png" title="PQC Cipher Candidates" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, an introduction on how Merkle Trees work. Middle, the Certificate Transparency. Right, the recommended PQC ciphers by [Enisa](https://www.enisa.europa.eu/publications/post-quantum-cryptography-current-state-and-quantum-mitigation).
+    On the left, the Certificate Transparency. Middle, an introduction on how Merkle Trees work. Right, the recommended PQC ciphers by <a href="https://www.enisa.europa.eu/publications/post-quantum-cryptography-current-state-and-quantum-mitigation" target="_blank" rel="noopener noreferrer">ENISA</a>.
 </div>
 
 ## Research Outcome

@@ -35,7 +35,7 @@ LoukIt! is an Android application developed in Java for organizing and managing 
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/new_task_page.png" title="New Task Page" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -65,11 +65,13 @@ LoukIt! is an Android application developed in Java for organizing and managing 
 
 Watch LoukIt! running in the Android Studio emulator.
 
-<div class="ratio ratio-16x9">
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
   <iframe
     src="https://www.youtube.com/watch?v=u5axN2hvB-Y"
     title="LoukIt! Android Application Demonstration"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
     loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>

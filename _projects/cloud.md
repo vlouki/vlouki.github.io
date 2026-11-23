@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cloud Infrastructure Management with OpenStack/DevStack
-description: Cloud Computing | OpenStack, DevStack & Google Cloud
+title: Cloud Infrastructure Management
+description: OpenStack, DevStack & Google Cloud
 img: assets/img/cloud_project.png
 importance: 2
 category: academic
